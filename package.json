@@ -6,6 +6,8 @@
   "types": "dist/types.d.ts",
   "module": "dist/module.js",
   "author": "Marco Link",
+  "repository": "marcolink/contentful-collection",
+  "homepage": "https://github.com/marcolink/contentful-collection",
   "license": "MIT",
   "scripts": {
     "watch": "parcel watch",

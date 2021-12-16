@@ -1,0 +1,5 @@
+.tool-versions
+node_modules
+dist
+.parcel-cache
+.idea

@@ -1,0 +1,24 @@
+{
+  "name": "contentful-collection",
+  "version": "1.0.0",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "types": "dist/types.d.ts",
+  "module": "dist/module.js",
+  "author": "Marco Link",
+  "license": "MIT",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.0.1",
+    "@parcel/transformer-typescript-types": "^2.0.1",
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "parcel": "^2.0.1",
+    "ts-jest": "^27.1.2",
+    "typescript": ">=3.0.0"
+  }
+}

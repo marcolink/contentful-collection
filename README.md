@@ -30,5 +30,5 @@ const client = contentful.createClient({
 });
 
 const query = {content_type: "<my-content-type>"};
-const allItems = await getContentfulCollection(query => client.getEntries(query), query)
+const allItems = await getContentfulCollection(q => client.getEntries(q), query)
 ```

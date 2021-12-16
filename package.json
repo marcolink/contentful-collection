@@ -1,6 +1,6 @@
 {
   "name": "contentful-collection",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "types": "dist/types.d.ts",
